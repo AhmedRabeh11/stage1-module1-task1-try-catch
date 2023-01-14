@@ -35,7 +35,7 @@ public class ParseIntegers {
 
         }
         for(String stri: justWordsL){
-        justWords += stri + " ";
+        justWords += ( " "+ stri);
         }
         System.out.println("Sum is " + sum);
         System.out.println("Just words:" + justWords);
